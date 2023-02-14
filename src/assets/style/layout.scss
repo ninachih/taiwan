@@ -1,0 +1,171 @@
+$large:1400px;
+$medium: 1120px;
+$padLandscape:1024px;
+$pad: 850px;
+$padMini:768px;
+$small: 500px;
+$iphone678: 420px;
+$mainColor: #f3feee;
+$textColor:#2a2f2b;
+$blue:#23a79c;
+$pink:#f48b85;
+$deepBlue:#308582;
+$yellow:#f8f8f0;
+
+@mixin title-style {
+    color: #328480;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+    margin:20px  0 0;
+}
+
+@mixin p-style {
+    margin: 0;
+    font-weight: bold;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background: $mainColor;
+    font-weight: bold;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $textColor;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    outline: none;
+    font-size: 16px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+
+    @media screen and (max-width: $medium) {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+}
+
+section {
+    padding: 20px 0;
+}
+
+.title {
+    @include title-style;
+    @media screen and (max-width: $small) {
+        font-size:25px;
+    }
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.btnArea {
+    padding: 50px 0;
+}
+
+.btn {
+    background: $blue;
+    border: 0;
+    border-radius: 50px;
+    padding: 12px 0;
+    width: 200px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+
+    &:hover {
+        transition: all 200ms linear;
+        background: $pink;
+    }
+}
+
+.fade-enter-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter
+
+/* .fade-leave-active below version 2.1.8 */
+    {
+    opacity: 0;
+}
+
+.swal2-styled.swal2-confirm,
+.swal2-styled.swal2-cancel {
+  background-color: $pink !important;
+  padding: 10px 50px;
+  border-radius: 50px !important;
+  outline: none;
+}
+
+  #css_table {
+    display:table;
+  
+    width: 100%;
+  }
+  .css_tr {
+      display: table-row;
+      &:nth-child(even){
+        background:#E4EFE6;
+      }
+  }
+  .css_td {
+      display: table-cell;
+      text-align: center;
+      line-height:30px;
+      padding:5px 0;
+  }
+
+.red{
+    color:#eb4848;
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="400" viewBox="0 0 1920 400">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_345" data-name="Rectangle 345" width="1920" height="400" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_344" data-name="Rectangle 344" width="1920.003" height="400" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_343" data-name="Rectangle 343" width="879.317" height="113.647" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="linepay-bg" clip-path="url(#clip-path)">
+    <rect id="Rectangle_342" data-name="Rectangle 342" width="1920.003" height="400" fill="#fefbe8"/>
+    <g id="Group_437" data-name="Group 437">
+      <g id="Group_436" data-name="Group 436" clip-path="url(#clip-path-2)">
+        <g id="Group_435" data-name="Group 435" transform="translate(0 175.08)" opacity="0.3">
+          <g id="Group_434" data-name="Group 434">
+            <g id="Group_433" data-name="Group 433" clip-path="url(#clip-path-3)">
+              <path id="Path_3404" data-name="Path 3404" d="M879.317,229.308c-76.4-10.431-155.652-21.613-238.834-32.842C376.875,160.881,156.867,175.231,0,199.514v73.554c301.817,36.058,568.608,4.964,879.317-43.76" transform="translate(0 -175.08)" fill="#ffe566"/>
+            </g>
+          </g>
+        </g>
+        <path id="Path_3405" data-name="Path 3405" d="M1180.913,180.769c-106.225,16.886-205.988,33.546-301.594,48.539C568.609,278.032,301.818,309.125,0,273.067V400H1919.432V184.46c-157.113-29.228-416.271-54.917-738.52-3.691" fill="#ffe566"/>
+      </g>
+    </g>
+  </g>
+</svg>

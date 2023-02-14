@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="688" height="407" viewBox="0 0 688 407">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_243" data-name="Rectangle 243" width="660.57" height="382.082" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.058" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#007d5c"/>
+      <stop offset="0.253" stop-color="#007152"/>
+      <stop offset="0.708" stop-color="#00513a"/>
+      <stop offset="1" stop-color="#003a29"/>
+    </radialGradient>
+  </defs>
+  <g id="slot-blackboard" transform="translate(0 -0.412)">
+    <rect id="Rectangle_240" data-name="Rectangle 240" width="688" height="407" transform="translate(0 0.412)" fill="#7f5a50"/>
+    <rect id="Rectangle_241" data-name="Rectangle 241" width="665.981" height="384.785" transform="translate(10.764 11.314)" fill="#684e46"/>
+    <g id="Group_224" data-name="Group 224" transform="translate(13.469 12.665)">
+      <g id="Group_223" data-name="Group 223" clip-path="url(#clip-path)">
+        <rect id="Rectangle_242" data-name="Rectangle 242" width="660.57" height="382.082" transform="translate(0)" fill="url(#radial-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

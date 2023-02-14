@@ -1,0 +1,30 @@
+{
+  "name": "FY23_luckydraw_src",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@dmaksimovic/vue-countdown": "^1.0.0",
+    "axios": "^0.27.2",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "vue": "^2.6.11",
+    "vue-meta": "^2.4.0",
+    "vue-owl-carousel": "^2.0.3",
+    "vue-router": "^3.2.0",
+    "vue-sweetalert2": "^5.0.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
