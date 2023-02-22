@@ -3,17 +3,14 @@
   <div class="slidebox"></div>
   <div id="nav">
     <div class="container">
-      <a :href="navUrl" target="_blank" class="logo" onclick="dos.beaconSend(4,2,1,7,'','好禮三重抽','回首頁','活動首頁')"
+      <a :href="navUrl" target="_blank" class="logo"
         ><img src="../assets/tmnewa.png" alt="" />
       </a>
       <div class="link">
         <div class="linkCon">
-        <router-link :to="{ path: '/', hash: '#q1' }" onclick="dos.beaconSend(4,2,1,7,'','好禮三重抽','活動內容','活動首頁')">活動內容</router-link>
-        <span> |</span>
-        <router-link :to="{ path: '/', hash: '#login' }" onclick="dos.beaconSend(4,2,1,7,'','好禮三重抽','抽獎專區','活動首頁')"> 抽獎專區</router-link>
-        <span> |</span> <a href="https://b2c.tmnewa.com.tw/events/lotterypage/detail_winner_list.html 
-" onclick="dos.beaconSend(4,2,1,7,'','好禮四重抽','得獎名單','活動首頁')" target="_blank"> 得獎名單</a><span> |</span>
-        <router-link :to="{ path: '/', hash: '#notice' }" onclick="dos.beaconSend(4,2,1,7,'','好禮三重抽','注意事項','活動首頁')"> 注意事項</router-link>
+        <router-link :to="{ path: '/', hash: '#q1' }">保單服務</router-link>
+        <router-link :to="{ path: '/', hash: '#login' }">投保查詢</router-link>
+        <router-link :to="{ path: '/', hash: '#notice' }"> 商品說明</router-link>
         </div>
         <div class="iconM" @click="showList">
           <div class="bar-top"></div>

@@ -1,12 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import home from '@/views/home.vue'
-import winnerList from '@/views/winnerList.vue'
-import knowledge from '@/views/knowledge.vue'
 import OTP from '@/views/otp.vue'
-import lottery from '@/views/lottery.vue'
-import search from '@/views/search.vue'
-
+import count1 from '@/views/count1.vue'
+import count2 from '@/views/count2.vue'
 
 Vue.use(VueRouter);
 
@@ -21,32 +18,28 @@ const routes = [
     component: home,
   },
   {
-    path: '/winnerList',
-    name: 'winnerList',
-    component: winnerList,
+    path: '/count1',
+    name: 'count1',
+    component: count1,
   },
-  {
-    path: '/knowledge',
-    name: 'knowledge',
-    component: knowledge,
-  },
+
   {
     path: '/otp',
     name: 'otp',
     component: OTP,
   },
   {
-    path: '/lottery',
-    name: 'lottery',
-    component: lottery,
+    path: '/count2',
+    name: 'count2',
+    component: count2,
     meta: { requiresAuth: true }
   },
-  {
-    path: '/search',
-    name: 'search',
-    component: search,
-    meta: { requiresAuth: true }
-  },
+  // {
+  //   path: '/count2',
+  //   name: 'search',
+  //   component: search,
+  //   meta: { requiresAuth: true }
+  // },
   { //防止空白頁面進入
     path: '*',
     redirect: '/'
@@ -55,7 +48,7 @@ const routes = [
 
 const router = new VueRouter({
   // base: process.env.BASE_URL,
-  base: '/events/FY23_luckydraw/',
+  base: '/',
   routes,
   scrollBehavior(to, from, savedPosition) {
 
