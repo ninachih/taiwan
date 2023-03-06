@@ -55,7 +55,7 @@ export default {
   }
   h2 {
     font-size: 40px;
-    color: $blue;
+    color: $mainBlue;
     font-weight: bolder;
     float: left;
     @media screen and (max-width: $small) {
@@ -79,7 +79,7 @@ export default {
   .text {
     text-align: left;
     span {
-      color: $blue;
+      color: $mainBlue;
     }
   }
   .btnLogin {

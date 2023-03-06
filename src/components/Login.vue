@@ -4,11 +4,11 @@
       <Loading @load="loading"  v-if="isLoading == true"/>
     </transition>
     <a class="fbShare" @click="fbShare" title="facebook" onclick="dos.beaconSend(4,2,1,7,'','好禮三重抽','點我分享活動','活動首頁')">
-      <img src="../assets/share.svg" alt="">
+     
     </a>
     <div class="container">
       <div class="content">
-        <img src="../assets/hand.png" alt="" class="loginGirl" />
+       
         <h2 class="center title" @click="this.isLoading = false" onclick="dos.beaconSend(4,2,1,7,'','好禮三重抽','立即抽獎','活動首頁')">立即抽獎</h2>
         <div id="selectDiv" v-if="Select != true">
           <button id="firstBtn" class="btn" @click="first">首次註冊</button>
@@ -77,7 +77,6 @@
       </div>
     </div>
      <div class="asideBar">
-      <img src="../assets/icon-bar-treasure.png" alt="">
       <p>完成投保</p>
       <p>好禮等你拿</p>
       <router-link :to="{ path: '/', hash: '#login' }"> 立即抽獎</router-link>
@@ -576,16 +575,16 @@ export default {
     font-weight: bold;
   }
   .swal2-title {
-    color: $blue;
+    color: $mainBlue;
   }
   .award {
     padding: 10px 20px;
     box-sizing: border-box;
-    border: 2px solid $blue;
+    border: 2px solid $mainBlue;
     background: #fff;
     display: inline-block;
     border-radius: 10px;
-    color: $blue;
+    color: $mainBlue;
     margin: 5px auto;
   }
 }

@@ -5,21 +5,35 @@ $pad: 850px;
 $padMini:768px;
 $small: 500px;
 $iphone678: 420px;
-$mainColor: #f3feee;
+$mainColor: #fff;
 $textColor:#2a2f2b;
-$blue:#23a79c;
-$pink:#f48b85;
-$deepBlue:#308582;
-$yellow:#f8f8f0;
+$mainBlue:#00A69C;
+$lightBlue:#E2F7F6;
+$pink:#FF4D85;
+$red:#FF6060;
+$gray:#B6B6B7; 
+$deepGray:#4F4F4F;
+$btnGray:#CACCCF;
+$green:#008578;
+$lightGreen:#E2F7F6;
+$yellow:#FEB100;
+
 
 @mixin title-style {
-    color: #328480;
-    font-size: 30px;
+    color: $mainBlue;
+    font-size: 40px;
     text-align: center;
     padding: 10px 0;
-    margin:20px  0 0;
+    font-weight:bolder;
 }
-
+@mixin title-style2 {
+    color: #4F4F4F;
+    font-size:30px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight:bolder;
+    margin:0 0 40px;
+}
 @mixin p-style {
     margin: 0;
     font-weight: bold;
@@ -30,7 +44,9 @@ body {
     padding: 0;
     margin: 0;
     background: $mainColor;
-    font-weight: bold;
+    font-size:18px;
+    letter-spacing: normal;
+    letter-spacing: initial;
 }
 
 #app {
@@ -77,7 +93,6 @@ input {
 .container {
     width: 1100px;
     margin: 0 auto;
-
     @media screen and (max-width: $medium) {
         width: 100%;
         padding: 0 20px;
@@ -95,9 +110,14 @@ section {
         font-size:25px;
     }
 }
-
+.title2{
+    @include title-style2;
+    @media screen and (max-width: $small) {
+        font-size:20px;
+    }
+}
 .text {
-    font-size: 20px;
+    font-size:24px;
     text-align: center;
     font-weight: bold;
 }
@@ -111,7 +131,7 @@ section {
 }
 
 .btn {
-    background: $blue;
+    background: $pink;
     border: 0;
     border-radius: 50px;
     padding: 12px 0;
@@ -121,8 +141,9 @@ section {
     font-size: 18px;
     display: inline-block;
     margin: 0 20px;
+    font-size:24px;
+    vertical-align: middle;
     cursor: pointer;
-
     &:hover {
         transition: all 200ms linear;
         background: $pink;
@@ -168,4 +189,15 @@ section {
 
 .red{
     color:#eb4848;
+}
+
+.gradient{
+    background: rgb(204,239,242);
+    background: linear-gradient(180deg, rgba(204,239,242,1) 30%, rgba(255,255,255,1) 100%);
+}
+.normalText{
+    color:$deepGray;
+    font-size:16px;
+    font-weight: bold;
+    margin:30px 0;
 }

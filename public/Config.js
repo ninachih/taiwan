@@ -1,7 +1,7 @@
 'use strict';
 
 var
-    BASE_URL = '/events/FY23_luckydraw/',
+    BASE_URL = '/taiwan',
     MemeberApiDomain = "https://b2capi-test-gateway.tmnewa.com.tw/ecjapi/member/",
     ActApiDomain = "https://b2capi-test-gateway.tmnewa.com.tw/ecjapi/activity/";
 // MemeberApiDomain = "https://b2capi-gateway.tmnewa.com.tw/ecjapi/member/",

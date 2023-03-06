@@ -3,7 +3,7 @@
     <transition name="fade">
       <Loading @load="loading" v-if="isLoading == true"/>
     </transition>
-    <img src="../assets/icon-otp.png" alt="" class="icon">
+    <img alt="" class="icon">
     <h2>輸入驗證碼</h2>
     <p>已將驗證碼發送至您的手機 :
       <span v-text="otpInfo.otpMobile">0912345678</span>

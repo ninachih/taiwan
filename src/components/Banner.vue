@@ -10,7 +10,7 @@
         <div class="linkCon">
         <router-link :to="{ path: '/', hash: '#q1' }">保單服務</router-link>
         <router-link :to="{ path: '/', hash: '#login' }">投保查詢</router-link>
-        <router-link :to="{ path: '/', hash: '#notice' }"> 商品說明</router-link>
+        <router-link :to="{ path: '/', hash: '#notice' }">商品說明</router-link>
         </div>
         <div class="iconM" @click="showList">
           <div class="bar-top"></div>
@@ -76,11 +76,15 @@ export default {
 <style lang="scss">
 #nav {
     width: 100%;
-    height: 60px;
-    border-bottom: 5px solid #966016;
+    padding:17.5px 0;
+    background-image: url("../assets/GoldenBar.svg");
+    background-color: #fff;
+    background-position: center top;
+    background-repeat: repeat-x;
     position: fixed;
     z-index: 100;
-    background: #fff;
+    box-sizing: border-box;
+    background-size: 102%;
     top: 0;
 
     .logo {
@@ -94,8 +98,14 @@ export default {
     }
 
     .link {
-        float: right;
-        overflow:hidden;
+      float:left;
+      width: 70%;
+      overflow:hidden;
+      text-align: center;
+        .linkCon {
+          display: inline-block;
+          a{margin:0 10px;}
+        }
         .iconM{display: none;
          @media screen and (max-width: $small) {
             display: block;
